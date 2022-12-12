@@ -21,9 +21,9 @@ for line in lines:
         #reset sum if blank line
         index = index + 1
         #iterate index by 1
-
 i = sorted(arr)
 print(i[-1]+i[-2]+i[-3])
+#this time just sort the array of elves and find the last three (largest)
 
 
 
