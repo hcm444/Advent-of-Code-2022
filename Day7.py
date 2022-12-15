@@ -26,7 +26,7 @@ with open('Day7.txt', 'r') as reader:
                     print(i)
 
 
-
+#IM GETTING FILTERED AHHHHHHHH!!!!!!!!!
 
 
 
