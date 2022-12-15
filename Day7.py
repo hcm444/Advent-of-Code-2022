@@ -25,8 +25,4 @@ with open('Day7.txt', 'r') as reader:
                     i.append(int(files[0]))
                     print(i)
 
-
-#IM GETTING FILTERED AHHHHHHHH!!!!!!!!!
-
-
-
+#hgelp
