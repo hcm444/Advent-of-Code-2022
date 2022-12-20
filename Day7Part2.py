@@ -22,8 +22,15 @@ for cmd in cmds:
         for i in range(path.count('/')):
             dirs[d] = dirs[d] + int(cmd[:cmd.find(" ")])
             d = d[:d.rfind("/")]
+
+v = []
 for d in dirs:
     if 100000 < dirs[d]:
-        continue
-    x = x + dirs[d]
-print(x)
+        pass
+    else:
+        x = x + dirs[d]
+    if 30000000 - (70000000 - dirs['/home']) > dirs[d]:
+        pass
+    else:
+        v.append(dirs[d])
+print(min(v, default=0))
