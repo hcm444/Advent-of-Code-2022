@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import numpy as np
 import matplotlib.pyplot as plt
 file = open('Day8.txt', 'r').readlines()
